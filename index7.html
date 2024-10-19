@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>cards</title>
+    <style>
+        #parent{
+            height: 600px;
+            width: 1200px;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 40px;
+            background-color: black;
+        }
+        #b1{
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(89, 0, 255);
+            background-color: yellow;
+
+        }
+        #b2{
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(89, 0, 255);
+            background-color: pink;
+
+        }
+        #b3{
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(89, 0, 255);
+            background-color: red;
+
+        }
+        #b4{
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(89, 0, 255);
+            background-color: green;
+
+        }
+        div{
+            opacity: 0.5;
+        }
+        div:hover{
+            opacity: 5;
+        }
+        :not(div){
+            opacity: 3;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="parent">
+        <div id="b1"></div>
+        <div id="b2"></div>
+        <div id="b3"></div>
+        <div id="b4"></div>
+    </div>
+</body>
+</html>
